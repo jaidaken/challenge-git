@@ -2,7 +2,7 @@ import * as express from 'express';
 import { Request, Response } from 'express';
 
 function handleHelloWorld(_: Request, res: Response) {
-  res.json({ msg: 'Hello, world' });
+	res.json({ msg: 'Hello, world' });
 }
 
 const app = express();
